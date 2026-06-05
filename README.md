@@ -43,7 +43,7 @@ Once submitted, the script will calculate and return the answer to your math equ
 
 
 
-\### Important Notes
+Important Notes
 
 
 
@@ -54,10 +54,4 @@ About Complex Numbers: Although Python natively supports complex calculations, c
 Illogical math equations (like 1/0, 0^0, etc.) have also been disabled.
 
 Calculatorpy was made with light assistance from AI.
-
-[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
-
-[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
-[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
-[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
 
