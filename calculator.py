@@ -1,8 +1,14 @@
+import sys
+
+
 def startupcalculator():
 
     n1 = input("Enter first number: ")
     oper = input("Enter operation (+, -, *, /, ^, r): ")
     n2 = input("Enter second number: ")
+
+    if n1 == "67" and oper == "67" and n2 == "67":
+      sys.exit("\n __    __   ______     \n/  \\  /  | /      \\    \n$$  \\ $$ |/$$$$$$  |   \n$$$  \\$$ |$$ |  $$ |   \n$$$$  $$ |$$ |  $$ |   \n$$ $$ $$ |$$ |  $$ |   \n$$ |$$$$ |$$ \\__$$ |__ \n$$ | $$$ |$$    $$//  |\n$$/   $$/  $$$$$$/ $$/ ")
    
     try:
         num1 = round(float(n1), 10)
@@ -34,7 +40,8 @@ def startupcalculator():
             startupcalculator()
             return
         else:
-          print(float(num1) / float(num2))   
+          print(float(num1) / float(num2))
+          continuescript = input("Do you want to do a new calculation? (y/n): ")
           if continuescript == "y":
             startupcalculator()
     elif oper == "^": # Exponentiation
