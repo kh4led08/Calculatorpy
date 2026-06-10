@@ -45,15 +45,19 @@ Once submitted, the script will calculate and return the answer to your math equ
 UPDATE LOG
 
 v1.0.1: Fixed a bug that threw an error when continuing script after a division and added a special condition to prevent you from doing a useless equation involving a number one does not mention.
+
 v1.0.0: Release update (more detailed information coming soon)
 
+|
+|
+|
 
 
 Important Notes
 
 Update 1.1.0 is in development. The update will have more equations, including sine, cosine, and tangent and all alike.
 
-
+|
 
 About Roots: First enter the degree (index), select r as your operation, and then enter the radicand.
 
